@@ -8,7 +8,7 @@
 /* Create two equal columns that floats next to each other */
 .HeaderColumnLeft {
 
-    background-image: url('../images/HotBeansLogo3.png');
+    background-image: url('../images/hotbeanslogo.png');
     background-repeat: no-repeat;
     float: left;
     width: 20%;
@@ -164,6 +164,7 @@ li {
 label {
     font-weight: bold;
 }
+
 
 
 
