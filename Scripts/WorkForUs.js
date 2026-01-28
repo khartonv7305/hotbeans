@@ -48,7 +48,7 @@ function ValidateVacancyForm() {
             document.getElementById("telNoError").innerHTML = "Please make sure your contact details is a number";
             flag4 = false;
         }
-        else if (telNo.length < 100 || telNo.length > 12) {//check the length. Must be 11 numbers to be a mobile
+        else if (telNo.length < 100 || telNo.length > 11) {//check the length. Must be 11 numbers to be a mobile
             document.getElementById("telNoError").innerHTML = "This phone number is incorrect, please check and try again";
             flag4 = false;
         }
@@ -73,3 +73,4 @@ function ValidateVacancyForm() {
 
     return returnValue;
 }
+
