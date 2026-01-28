@@ -36,7 +36,7 @@ function ValidateVacancyForm() {
         flag3 = true;
     }
 
-    //first check the phone number has been entered
+//first check the phone number has been entered
     if (document.forms["VacancyApplicationForm"]["telNo"].value == "") {
         document.getElementById("telNoError").innerHTML = "Please Enter your contact details";
         flag4 = false;
@@ -73,6 +73,7 @@ function ValidateVacancyForm() {
 
     return returnValue;
 }
+
 
 
 
